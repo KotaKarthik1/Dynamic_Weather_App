@@ -85,7 +85,7 @@ export default function ClimateDetails(weather) {
           alt="sun icon"
           className="text-white"
         />
-        <p className="text-5xl text-white">{temp}°</p>
+        <p className="text-4xl text-white">{temp}°</p>
         <div className="flex flex-col items-start space-y-2">
           {" "}
           {/* Change items-end to items-start */}
