@@ -1,0 +1,17 @@
+/* In your CSS file or CSS-in-JS library */
+.horizontal-details::-webkit-scrollbar {
+    height: 8px; /* Adjust the height as needed */
+  }
+  
+  .horizontal-details::-webkit-scrollbar-thumb {
+    background-color: #888; /* Adjust the color as needed */
+    border-radius: 4px;
+  }
+  
+  /* Add more styles to customize the scrollbar track, arrows, etc. */
+  .detail-value {
+    /* ... other styles ... */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
