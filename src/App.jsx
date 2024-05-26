@@ -29,7 +29,7 @@ const weatherVideos = {
 
 // Function to handle the API errors
 function App() {
-  const [searchParams, setSearchParams] = useState({ q: "guntur" });
+  const [searchParams, setSearchParams] = useState({ q: "Hyderabad" });
   const [units, setUnits] = useState("metric");
   const [weather, setWeather] = useState(null);
   
