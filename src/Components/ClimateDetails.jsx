@@ -100,19 +100,8 @@ export default function ClimateDetails(weather) {
           ))}
         </div>
       </div>
-      {/* <div className="flex flex-row items-center justify-center space-x-10 text-sm py-6">
-        {horizontalDetails.map((detail) => ( // Removed extra parentheses in the map function
-          <div key={detail.id} className="flex flex-row items-center">
-            <detail.Icon size={30} className="text-white"/>
-            <p className="font-light ml-2 text-white">
-              {`${detail.title}: `}
-              <span className="font-medium ml-2 text-white">{detail.value}</span>
-            </p>
-          </div>
-        ))}
-      </div> */}
       <div className='flex items-center justify-between'>
-        {/* <div className="flex flex-row items-center overflow-x-auto scroll-smooth py-6 max-w-[90vw]"> */}
+       
           {horizontalDetails.map((detail) => (
             <div
               key={detail.id}

@@ -47,7 +47,7 @@ function EnterCity({setSearchParams,setUnits}) {
     };
 
   return (
-    <div className="md:px-10 flex flex-col items-center md:flex-row md:justify-between"> 
+    <div className="flex items-center justify-between"> 
   <div className="flex items-center mb-4 md:mb-0"> {/* Location button */}
     <BiCurrentLocation 
       size={32} 
@@ -62,10 +62,10 @@ function EnterCity({setSearchParams,setUnits}) {
     </span>
   </div>
 
-  <div className="flex items-center mb-4 md:mb-0"> {/* Unit buttons */}
-    <button className="text-xl md:text-2xl text-white" onClick={() => setUnits("metric")}>°C</button>
-    <span className="mx-1 text-xl md:text-2xl text-white">|</span>
-    <button className="text-xl md:text-2xl text-white" onClick={() => setUnits("imperial")}>F</button>
+  <div className="flex p-2 items-center mb-4 md:mb-0"> {/* Unit buttons */}
+    <button className="text-xl  text-white" onClick={() => setUnits("metric")}>°C</button>
+    <span className="mx-1 text-xl  text-white">|</span>
+    <button className="text-xl  text-white" onClick={() => setUnits("imperial")}>F</button>
   </div>
 
   <div className="relative w-full md:w-3/4"> {/* Search bar */}
